@@ -5,7 +5,7 @@ from MadmaxXMusic import app
 
 #--------------------------
 
-MUST_JOIN = "voiceofheart0"
+MUST_JOIN = "friendssquadron"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -26,11 +26,11 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("ᴍᴜsɪᴄ ʙᴏᴛ", url=f"https://t.me/EMMA_MUSICOP_BOT?startgroup=true"),
+                                InlineKeyboardButton("ᴍᴜsɪᴄ ʙᴏᴛ", url=f"https://t.me/Heena_X_Robot?startgroup=true"),
                             ],
                             [
                                 InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=link),
-                                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ᴄʜᴀᴛ", url=f"https://t.me/statusdairy2"),
+                                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ᴄʜᴀᴛ", url=f"https://t.me/dpz_hub_05"),
                             ],
                         ]
                     )
